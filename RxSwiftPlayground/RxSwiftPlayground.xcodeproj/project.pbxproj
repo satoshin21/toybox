@@ -13,8 +13,8 @@
 /* Begin PBXFileReference section */
 		3021F15D1D2FE9106E61A82A /* Pods_RxSwiftPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D1100B55AA264258B321474 /* Pods-RxSwiftPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftPlayground/Pods-RxSwiftPlayground.release.xcconfig"; sourceTree = "<group>"; };
-		63961E7C1E8A1BFF00FA4D00 /* RxSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift.playground; sourceTree = "<group>"; };
-		63A957A71E8A0FF00022A084 /* RxSwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63961E7C1E8A1BFF00FA4D00 /* RxSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		63A957A71E8A0FF00022A084 /* RxSwiftPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = RxSwiftPlayground.app; path = "/Users/satoshin21/dev/src/github.com/satoshin21/toybox/RxSwiftPlayground/build/Debug-iphoneos/RxSwiftPlayground.app"; sourceTree = "<absolute>"; };
 		9672D4FACC35E54421E718AB /* Pods-RxSwiftPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftPlayground/Pods-RxSwiftPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,18 +43,9 @@
 			isa = PBXGroup;
 			children = (
 				63961E7C1E8A1BFF00FA4D00 /* RxSwift.playground */,
-				63A957A81E8A0FF00022A084 /* Products */,
 				3F4555794321E5C508254FC3 /* Pods */,
 				E5C2D31860C625546BADB74B /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		63A957A81E8A0FF00022A084 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				63A957A71E8A0FF00022A084 /* RxSwiftPlayground.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E5C2D31860C625546BADB74B /* Frameworks */ = {
@@ -114,7 +105,7 @@
 				Base,
 			);
 			mainGroup = 63A9579E1E8A0FF00022A084;
-			productRefGroup = 63A957A81E8A0FF00022A084 /* Products */;
+			productRefGroup = 63A9579E1E8A0FF00022A084;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
